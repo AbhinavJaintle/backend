@@ -1,0 +1,130 @@
+<!-- IGNORE THE BODY OF THE SITE -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+</head>
+<body style="background-color: black;">
+  <div>
+    <div style="display:inline-block; margin-right: 10px;">
+      <h1 style="color: rgb(255, 255, 255);">  </h1>
+    </div>
+    <div style="display:inline-block; border-left: 6px solid green; padding-left: 4px; padding-right: 4px;">
+      <h2 style="font-size: 20px; color: rgb(0, 0, 0);">.</h2>
+    </div>
+    <div style="display:inline-block;">
+      <h3 style="color: rgb(255, 255, 255); margin-top: 4px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">testing site</h3>
+    </div>
+  </div>
+  
+      <div style="text-align: center; margin-top: 10%;">
+      <span style="color: white"><b>L I V E </b></span>
+    <div class="spinner-grow spinner-grow-sm text-light" role="status">
+      
+    </div>
+  </div>
+
+</body>
+
+
+<!-- BODY ENDS HERE -->
+
+
+
+<!-- 1. To get the records of the requested student by _id -->
+<script>
+  fetch('http://localhost:6069/get?_id=60033690588')
+	.then(response => response.text())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
+</script>
+
+
+<!-- 2. To create a new record  -->
+<script>
+// POST request using fetch()
+fetch("http://localhost:6069/create", {
+	
+	method: "POST",
+	
+	body: JSON.stringify({
+    _id: 665879522,
+    name : 'Dhanesh',
+    email : 'dk@gmail.com',
+    phoneNumber : 7756879224,
+    Age : 19,
+    isStudent : true,
+    highestQualification : 'B.Tech',
+    interests : ['DSA', 'C++', 'Java']    
+  }
+),
+	
+	headers: {
+		"Content-type": "application/json; charset=UTF-8"
+	}
+})
+
+.then(response => response.text())
+
+.then(response => console.log(response));
+
+
+</script>
+
+
+<!-- 3. To delete the records of the requested student by _id  -->
+<script>
+  fetch("http://localhost:6069/delete", {
+    
+    method: "POST",
+    
+    body: JSON.stringify({
+      _id: "4433690588"
+    }),
+    
+    headers: {
+      "Content-type": "application/json; charset=UTF-8"
+    }
+  })
+  
+  .then(response => response.text())
+  
+  .then(response => console.log(response));
+  </script>
+
+<!-- 4. To update an existing record -->
+  <script>
+    // POST request using fetch()
+    fetch("http://localhost:6069/update", {
+      
+      method: "POST",
+      
+      body: JSON.stringify({
+        _id: 8566785457,
+        phoneNumber : 7844432809,
+        address : '1-5-6/B8/F5, ABC Colony, Hyderabad',
+        branch : 'CSE'
+      }),
+      
+      headers: {
+        "Content-type": "application/json; charset=UTF-8"
+      }
+    })
+    
+    .then(response => response.text())
+    
+    .then(response => console.log(response));
+    
+    
+    </script>
+
+</html>

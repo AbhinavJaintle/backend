@@ -1,0 +1,5 @@
+Age,_id,address,branch,email,highestQualification,interests,isStudent,name,phoneNumber
+21,60033690588,,,test@gmail.com,B-tech,"[""ML"",""WebDevelopment"",""DataScience""]",true,Test,8359762809
+18,6433690345,,,jas@gmail.com,B-tech,"[""NLP"",""Applied Science"",""DataScience""]",true,Jason,7854112689
+29,8566785457,"1-5-6/B8/F5, ABC Colony, Hyderabad",CSE,olives@gmail.com,Doctor of Philosophy,"[""Deep Learning"",""Neural Networks""]",false,Olivia,7844432809
+19,665879522,,,dk@gmail.com,B.Tech,"[""DSA"",""C++"",""Java""]",true,Dhanesh,7756879224

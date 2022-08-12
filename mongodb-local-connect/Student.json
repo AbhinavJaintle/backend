@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$numberLong": "60033690588"
+  },
+  "name": "Test",
+  "email": "test@gmail.com",
+  "phoneNumber": {
+    "$numberLong": "8359762809"
+  },
+  "Age": 21,
+  "isStudent": true,
+  "highestQualification": "B-tech",
+  "interests": [
+    "ML",
+    "WebDevelopment",
+    "DataScience"
+  ]
+},{
+  "_id": {
+    "$numberLong": "6433690345"
+  },
+  "name": "Jason",
+  "email": "jas@gmail.com",
+  "phoneNumber": {
+    "$numberLong": "7854112689"
+  },
+  "Age": 18,
+  "isStudent": true,
+  "highestQualification": "B-tech",
+  "interests": [
+    "NLP",
+    "Applied Science",
+    "DataScience"
+  ]
+},{
+  "_id": {
+    "$numberLong": "8566785457"
+  },
+  "name": "Olivia",
+  "email": "olives@gmail.com",
+  "phoneNumber": {
+    "$numberLong": "7844432809"
+  },
+  "Age": 29,
+  "isStudent": false,
+  "highestQualification": "Doctor of Philosophy",
+  "interests": [
+    "Deep Learning",
+    "Neural Networks"
+  ],
+  "address": "1-5-6/B8/F5, ABC Colony, Hyderabad",
+  "branch": "CSE"
+},{
+  "_id": 665879522,
+  "name": "Dhanesh",
+  "email": "dk@gmail.com",
+  "phoneNumber": {
+    "$numberLong": "7756879224"
+  },
+  "Age": 19,
+  "isStudent": true,
+  "highestQualification": "B.Tech",
+  "interests": [
+    "DSA",
+    "C++",
+    "Java"
+  ]
+}]
