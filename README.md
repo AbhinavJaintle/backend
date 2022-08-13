@@ -102,7 +102,7 @@ npm install
 ```
 - Step 6: Test the API:
 
-Hop to the [Tests](#tests) section to see the various ways you can test this API.
+Hop to the [Usage](#usage) or [Tests](#tests) section to see the various ways you can test this API.
 
 ## Dependencies
 
