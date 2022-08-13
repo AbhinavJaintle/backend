@@ -11,7 +11,7 @@ This project is a RESTful API which takes POST and GET requests from client serv
 ![testing site](https://user-images.githubusercontent.com/86119205/184479142-c667a3aa-4f61-4698-b8f4-beb00a08c603.jpg)
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Dependencies](#dependencies)
