@@ -96,7 +96,11 @@ For my database, I used the following JSON Schema to authenticate the entries:
   }
 }
 ```
-- Step 5: Test the API:
+- Step 5: Intall Packages
+```shell
+npm install
+```
+- Step 6: Test the API:
 
 Hop to the [Tests](#tests) section to see the various ways you can test this API.
 
