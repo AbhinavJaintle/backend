@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is a RESTful API which takes POST and GET requests from client servers and returns a JavaScript Object Notation(JSON) formatted response. From this API, you can perform the following tasks:
+This project is a CRUD API which takes POST and GET requests from client servers and returns a JavaScript Object Notation(JSON) formatted response. From this API, you can perform the following tasks:
 - Fetch a record
 - Create a record
 - Update a record
